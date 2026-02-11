@@ -1,0 +1,41 @@
+/* nav background */
+nav ul {
+  background-color: #ddd;
+  padding: 10px;
+  margin: 0;
+}
+
+/* list style and layout */
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+/* link style */
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a2a8a;
+}
+
+/* hover */
+nav ul li a:hover {
+  color: #c1121f;
+}
+
+/* zebra stripe for table rows (even rows) */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* keep images same size without stretching */
+.img-250 {
+  width: 250px;
+  height: auto;
+}
+
+/* border requirement */
+.bordered-image {
+  border: 3px solid #000;
+}
